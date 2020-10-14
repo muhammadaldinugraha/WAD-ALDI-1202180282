@@ -53,7 +53,7 @@
 
                     <tr>
                         <?php
-                        $roomType = $_POST['roomList'];
+                        $roomType = $_GET['roomList'];
                         $duration = $_POST['duration'];
                         $roomPrice = 0;
                         $dateBook = date('d/m/Y', strtotime($_POST['inputDate']));
@@ -70,7 +70,7 @@
                                 break;
                         }
 
-                        $serviceFee = 0;
+                        $serviceFee != 0;
                         if (empty($_POST['services'])) {
                             $reservedServices = 0;
                         } else {
@@ -82,7 +82,7 @@
 
 
                         echo '
-                    <td><strong>'  . rand() . '</strong></td>
+                    <td><strong>' . '</strong></td>
                     <td>' . $_POST['name'] . '</td>
                     <td>' . $dateBook . '</td>
                     <td>' . $dateCheckOut . '</td>
