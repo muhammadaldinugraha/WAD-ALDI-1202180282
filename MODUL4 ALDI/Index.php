@@ -54,7 +54,7 @@ text-align: left;font-family: courier;}
       <td>Rp 700.000</td>
       <form action="" method="post">
       <input type="hidden" name="kode" value="1">
-      <td><button type="submit" name="addcart">Add To Cart</button></td>
+      <td><button type="submit" name="addcart"><a href="Cart.php">Add To Cart</button></td>
       </form>
     </tr>
     <tr>
@@ -64,7 +64,7 @@ text-align: left;font-family: courier;}
       <td>Rp 600.000</td>
       <form action="" method="post">
       <input type="hidden" name="kode" value="2">
-      <td><button type="submit" name="addcart">Add To Cart</button></td>
+      <td><button type="submit" name="addcart"><a href="Cart.php">Add To Cart</button></td>
       </form>
     </tr>
     <tr>
@@ -74,7 +74,7 @@ text-align: left;font-family: courier;}
       <td>Rp 900.000</td>
       <form action="" method="post">
       <input type="hidden" name="kode" value="3">
-      <td><button type="submit" name="addcart">Add To Cart</button></td>
+      <td><button type="submit" name="addcart"><a href="Cart.php">Add To Cart</button></td>
       </form>
     </tr>
     </tr>
